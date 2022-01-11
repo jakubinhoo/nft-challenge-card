@@ -37,6 +37,8 @@ h2 {
   max-height: 550px;
   margin: 50px auto;
   border-radius: 1rem;
+  box-shadow: hsl(217, 54%, 10.7%) 0px 14px 1px 10px,
+    hsl(217, 54%, 11.5%) 0px 15px 1px 30px;
 }
 
 .main-c .equilibrium {
