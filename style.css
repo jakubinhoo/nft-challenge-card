@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+html {
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  color: white;
+}
+
+h1 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 0.2rem;
+  margin-left: 1.2rem;
+}
+
+h2 {
+  font-weight: 300;
+  margin-left: 1.2rem;
+  font-size: 1rem;
+  margin-top: 0.2rem;
+  color: hsl(215, 51%, 70%);
+}
+
+#icon {
+  vertical-align: middle;
+}
+
+.main-c {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: hsl(216, 50%, 16%);
+  width: 310px;
+  max-height: 550px;
+  margin: 50px auto;
+  border-radius: 1rem;
+}
+
+.main-c .equilibrium {
+  width: 270px;
+  height: auto;
+  margin: 1.2rem;
+  border-radius: 0.5rem;
+}
+
+.main-c .hover-icon {
+  opacity: 0;
+  margin: 1.2rem;
+  align-content: center;
+  justify-content: center;
+  position: absolute;
+  width: 270px;
+  height: 270px;
+  border-radius: 0.5rem;
+  background-color: hsla(178, 100%, 50%, 30%);
+  transition: all 0.2s ease-in-out;
+}
+
+.second-c {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 1.2rem;
+  margin-right: 1.2rem;
+  align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+  margin-bottom: 1.2rem;
+}
+
+.last-c {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.last-c img {
+  height: 2rem;
+  border: 1px solid white;
+  border-radius: 100%;
+  vertical-align: middle;
+}
+
+.eth {
+  color: hsl(178, 100%, 50%);
+  line-height: 1rem;
+}
+
+.time-left {
+  color: hsl(215, 51%, 70%);
+}
+
+/* .main-c .hover-style {
+  opacity: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 270px;
+  height: 270px;
+  margin: 15px;
+  border-radius: 1rem;
+  background-color: hsla(178, 100%, 50%, 50%);
+  opacity: 0;
+  z-index: 1;
+} */
+
+.hover-icon:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.view-icon {
+  margin: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.attribution {
+  font-size: 1rem;
+}
+
+.attribution a {
+  color: hsl(215, 51%, 70%);
+}
